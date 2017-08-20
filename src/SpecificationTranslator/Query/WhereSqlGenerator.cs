@@ -23,7 +23,7 @@ namespace SpecificationTranslator.Query
         private const string ALWAYS_TRUE_SQL = "1 = 1";
         private const string ALWAYS_FALSE_SQL = "0 = 1";
 
-        public WhereSqlGenerator(ISqlGenerationHelper sqlGenerationHelper, Expression expression)
+        protected WhereSqlGenerator(ISqlGenerationHelper sqlGenerationHelper, Expression expression)
         {
             _sqlGenerationHelper = sqlGenerationHelper;
             _parametersValues = new Dictionary<string, object>();
