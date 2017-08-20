@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>SpecificationTranslator</id>
+    <version>$version$</version>
+    <title>SpecificationTranslator</title>
+    <authors>ShadowTracker</authors>
+    <owners>ShadowTracker</owners>
+    <description>SpecificationTranslator</description>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+    <tags>specification translator sql generator</tags>
+  </metadata>
+  <!--<files>
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net452\" />
+  </files>-->
+</package>
